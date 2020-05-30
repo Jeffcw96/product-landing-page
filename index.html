@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation on scroll</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Raleway:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <i class="fa fa-bars" aria-hidden="true" style="font-size:25px; cursor: pointer; display:none;"
+                onclick="toggleNav()"></i>
+            <h2 class="logo">YurBikeS</h2>
+            <ul class="nav-list">
+                <li>Home</li>
+                <li><a href="#aboutList">About</a></li>
+                <li><a href="#featureContainer">Feature</a></li>
+                <li>Contact Us</li>
+            </ul>
+            <ul class="log-in">
+                <li class="sign-up">Sign up</a></li>
+                <li class="sign-in">Sign in</a></li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <h1>Best Bike for the Best you</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, animi.<br> Culpa tempore est eveniet
+                obcaecati..</p>
+            <button class="btn">Learn More</button>
+            <button class="btn">Try Now</button>
+        </div>
+    </header>
+
+    <section id="aboutList" class="about">
+        <h2 class="about-title">What we do</h2>
+        <div class="about-list">
+            <div class="about-item fade-in">
+                <h3>Durable</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatibus praesentium eum molestias
+                    tempora reprehenderit consequuntur consectetur natus aliquam eius.</p>
+            </div>
+            <div class="about-item fade-in">
+                <h3>Strong</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatibus praesentium eum molestias
+                    tempora reprehenderit consequuntur consectetur natus aliquam eius.</p>
+            </div>
+            <div class="about-item fade-in">
+                <h3>Quality</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatibus praesentium eum molestias
+                    tempora reprehenderit consequuntur consectetur natus aliquam eius.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="showcase" id="featureContainer">
+        <div class="showcase-header">
+            <h1>Bicycle Showcase</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, quas.</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <img src="img/image_1.jpg" alt="first bicycle" class="left-grid-content">
+                <div class="image-content right-grid-content">
+                    <h3>First Bicycle</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet accusantium quaerat, voluptate
+                        corrupti
+                        doloremque nobis asperiores deleniti. Similique esse culpa ullam laborum commodi debitis quam
+                        sequi,
+                        voluptatibus corrupti sint nihil?</p>
+                    <button class="btn-card">Learn More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/image_3.jpg" alt="second bicycle" class="left-grid-content">
+                <div class="image-content right-grid-content">
+                    <h3>Second Bicycle</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet accusantium quaerat, voluptate
+                        corrupti
+                        doloremque nobis asperiores deleniti. Similique esse culpa ullam laborum commodi debitis quam
+                        sequi,
+                        voluptatibus corrupti sint nihil?</p>
+                    <button class="btn-card">Learn More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/image_2.jpg" alt="third bicycle" class="left-grid-content">
+                <div class="image-content right-grid-content">
+                    <h3>Third Bicycle</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet accusantium quaerat, voluptate
+                        corrupti
+                        doloremque nobis asperiores deleniti. Similique esse culpa ullam laborum commodi debitis quam
+                        sequi,
+                        voluptatibus corrupti sint nihil?</p>
+                    <button class="btn-card">Learn More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/image_4.jpg" alt="fourth bicycle" class="left-grid-content">
+                <div class="image-content right-grid-content">
+                    <h3>Fourth Bicycle</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet accusantium quaerat, voluptate
+                        corrupti
+                        doloremque nobis asperiores deleniti. Similique esse culpa ullam laborum commodi debitis quam
+                        sequi,
+                        voluptatibus corrupti sint nihil?</p>
+                    <button class="btn-card">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script defer src="app.js"></script>
+</body>
+
+</html>
